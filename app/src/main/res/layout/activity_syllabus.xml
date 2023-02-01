@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBCDD3"
+    tools:context=".syllabus"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33C911"
+        android:elevation="4dp"
+        android:minHeight="?actionBarSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@mipmap/icon_foreground" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:layout_editor_absoluteX="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EB0C5DFA"
+                android:fontFamily="@font/font1"
+                android:text="Rajshahi University of Engineering and Technology"
+                android:textAlignment="center"
+                android:textColor="#F5F7F2F2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E2050505"
+                android:fontFamily="@font/font2"
+                android:text="Syllabus"
+                android:textAlignment="center"
+                android:textColor="#FDF5F6"
+                android:textSize="18sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#651FFF"
+                android:text="Note : Syllabus may be changed" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font2"
+                android:text="ECE Faculty"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/cse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of CSE"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/eee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  EEE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/ece"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  ECE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/ete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  ETE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font2"
+                android:text="CE Faculty"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/civil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of CE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/urp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  URP"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/becm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  BECM"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/archi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  Architecture"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font2"
+                android:text="ME Faculty"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/gce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  GCE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cfpe"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  CFPE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mte"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  MTE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mse"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  MSE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/me"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  Me"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ipe"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="Dept. of  IPE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

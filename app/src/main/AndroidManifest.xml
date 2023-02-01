@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ruetian">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".my_depts_input"></activity>
+        <activity android:name=".my_syllabus" />
+        <activity android:name=".my_dept_input" />
+        <activity android:name=".my_routine" />
+        <activity android:name=".settings" />
+        <activity android:name=".Routine.mteroutine" />
+        <activity android:name=".Routine.mseroutine" />
+        <activity android:name=".Routine.gceroutine" />
+        <activity android:name=".Routine.iperoutine" />
+        <activity android:name=".Routine.meroutine" />
+        <activity android:name=".Routine.urproutine" />
+        <activity android:name=".Routine.eteroutine" />
+        <activity android:name=".Routine.eceroutine" />
+        <activity android:name=".Routine.eeeroutine" />
+        <activity android:name=".Routine.cfperoutine" />
+        <activity android:name=".Routine.civilroutine" />
+        <activity android:name=".Routine.becmroutine" />
+        <activity android:name=".Routine.archiroutine" />
+        <activity android:name=".Routine.cseroutine" />
+        <activity android:name=".about" />
+        <activity android:name=".Syllabus.mte" />
+        <activity android:name=".Syllabus.mse" />
+        <activity android:name=".Syllabus.cfpe" />
+        <activity android:name=".Syllabus.gce" />
+        <activity android:name=".Syllabus.ipe" />
+        <activity android:name=".Syllabus.archi" />
+        <activity android:name=".Syllabus.becm" />
+        <activity android:name=".Syllabus.urp" />
+        <activity android:name=".Syllabus.ete" />
+        <activity android:name=".Syllabus.ece" />
+        <activity android:name=".Syllabus.me" />
+        <activity android:name=".Syllabus.eee" />
+        <activity android:name=".Syllabus.civil" />
+        <activity android:name=".Syllabus.cse" />
+        <activity android:name=".emmergency" />
+        <activity android:name=".syllabus" />
+        <activity android:name=".routine" />
+        <activity android:name=".info" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

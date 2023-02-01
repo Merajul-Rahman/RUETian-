@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".info">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33C911"
+        android:elevation="4dp"
+        android:minHeight="?actionBarSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_info_outline_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EB0C5DFA"
+        android:text="Rajshahi University of Engineering and Technology"
+        android:textColor="#F5F7F2F2"
+        android:textSize="18sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/infoselect"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/infobutton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Select" />
+    </TableRow>
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/infoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

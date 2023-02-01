@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RUETian</string>
+    <string-array name="semester">
+        <item name="one">First Year Odd</item>
+        <item name="two">First Year Even</item>
+        <item name="three">Second Year Odd</item>
+        <item name="four">Second Year Even</item>
+        <item name="five">Third Year Odd</item>
+        <item name="six">Third Year Even</item>
+        <item name="seven">Fourth Year Odd</item>
+        <item name="eight">Fourth Year Even</item>
+    </string-array>
+    <string-array name="info">
+        <item name="info">General Information</item>
+        <item name="history">History</item>
+        <item name="faculties">Faculties</item>
+        <item name="lab">Laboratory</item>
+        <item name="student">Student</item>
+    </string-array>
+    <string name="about">\nFeatures:\n\n->Information about RUET\n\n->Syllabus of all Department\n\n->Routine of all Department\n\n->Emergency Contacts
+</string>
+</resources>
